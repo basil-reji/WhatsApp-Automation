@@ -64,7 +64,7 @@ imagepath = 'image.jpg'
 delay = 3 #delay in seconds
 n = 3 #loop iteration count
 
-for i in range(n):
+for i in range(n): #iterating through loop
 	sendMessage(target= contacts[i], message= messages[i])
 	sendImage(imagepath= imagepath)
 	clickSearchBar()
