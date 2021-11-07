@@ -60,7 +60,7 @@ df = pd.read_excel("book.xlsx") #path of the excel file goes here
 contacts = df["Contact Name"] #Name of the column curresponding to
 messages = df["Message"] #message content
 
-imagepath = 'Full path of the image'
+imagepath = 'image.jpg'
 delay = 3 #delay in seconds
 n = 3 #loop iteration count
 
